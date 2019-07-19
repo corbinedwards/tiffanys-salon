@@ -1,0 +1,50 @@
+{
+  "desc": "Tiffany’s Salon is a full-service hair salon for both women and men. The following services and prices are the most common. Please inquire for special requests.",
+  "items": [
+    {
+      "title": "Cuts",
+      "itemDesc": "",
+      "prices": [
+        {
+          "product": "Women's",
+          "price": "$35",
+          "productDesc": ""
+        },
+        {
+          "product": "Men's",
+          "price": "$20",
+          "productDesc": ""
+        },
+        {
+          "product": "Children (under 10)",
+          "price": "$10",
+          "productDesc": ""
+        }
+      ],
+      "itemFooter": ""
+    },
+    {
+      "title": "Styling",
+      "itemDesc": "",
+      "prices": [
+        {
+          "product": "Updo",
+          "price": "starting at $25",
+          "productDesc": ""
+        },
+        {
+          "product": "Perms",
+          "price": "starting at $120",
+          "productDesc": ""
+        },
+        {
+          "product": "Color",
+          "price": "starting at $60",
+          "productDesc": "Options include basic color, touch-ups, highlights, lowlights, multidimensional color, and Ombre"
+        }
+      ],
+      "itemFooter": "Additional services available such as: shampoo, deep conditioning, blowout, flatiron, curling and crimping. Please inquire for pricing."
+    }
+  ],
+  "footer": ""
+}

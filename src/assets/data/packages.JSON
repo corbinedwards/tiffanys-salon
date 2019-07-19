@@ -1,0 +1,35 @@
+{
+  "desc": "Tiffany’s Salon provides a variety of salon packages. Prices vary based on the combination of services and the number of clients included. Sample packages are listed below.",
+  "items": [
+    {
+      "title": "Wedding, Prom, and Homecomings",
+      "itemDesc": "",
+      "prices": [
+        {
+          "product": "For Her",
+          "price": "",
+          "productDesc": "This package is designed for the Bride and her party, or the special young lady celebrating her prom or homecoming. The package may include hair, eyebrow treatment, makeup, massage, and mini mani/pedi with optional polish. These services may be provided on or off-site."
+        },
+        {
+          "product": "For Him",
+          "price": "",
+          "productDesc": "Designed for the Groom and his party this package may include a haircut or clean-up and style, touch-up of nails, and neck, back, and shoulder massage.  These services may be provided on or off-site."
+        }
+      ],
+      "itemFooter": ""
+    },
+    {
+      "title": "Mother/Daughter Time",
+      "itemDesc": "This package provides quality salon time together for moms and their daughters.  This package includes mini mani/pedi with optional polish, a targeted 15-minute tension relieving massage, and a facial.",
+      "prices": [],
+      "itemFooter": ""
+    },
+    {
+      "title": "A Package For Him",
+      "itemDesc": "This package provides a 15 minutes targeted tension relieving massage, haircut or trim, eyebrow trim or wax, and nail trim and file.",
+      "prices": [],
+      "itemFooter": ""
+    }
+  ],
+  "footer": ""
+}

@@ -1,0 +1,133 @@
+{
+  "desc": "",
+  "items": [
+    {
+      "title": "Facials",
+      "itemDesc": "",
+      "prices": [
+        {
+          "product": "Facial",
+          "price": "starting at $40",
+          "productDesc": "Every facial includes a scrub, steam towels, and a mask to meet the client’s skin requirements."
+        }
+      ],
+      "itemFooter": ""
+    },
+    {
+      "title": "Waxing",
+      "itemDesc": "",
+      "prices": [
+        {
+          "product": "Eyebrow",
+          "price": "$15",
+          "productDesc": ""
+        },
+        {
+          "product": "Full Body",
+          "price": "$150",
+          "productDesc": ""
+        },
+        {
+          "product": "Back",
+          "price": "$50",
+          "productDesc": ""
+        },
+        {
+          "product": "Legs",
+          "price": "$50",
+          "productDesc": ""
+        },
+        {
+          "product": "Bikini",
+          "price": "$50",
+          "productDesc": ""
+        }
+      ],
+      "itemFooter": ""
+    },
+    {
+      "title": "Eyebrows",
+      "itemDesc": "",
+      "prices": [
+        {
+          "product": "Color",
+          "price": "$25",
+          "productDesc": ""
+        },
+        {
+          "product": "Waxing",
+          "price": "$20",
+          "productDesc": ""
+        }
+      ],
+      "itemFooter": ""
+    },
+    {
+      "title": "Eyelashes",
+      "itemDesc": "",
+      "prices": [
+        {
+          "product": "Extensions",
+          "price": "starting at $85",
+          "productDesc": ""
+        },
+        {
+          "product": "Lift",
+          "price": "$45",
+          "productDesc": ""
+        },
+        {
+          "product": "Tints",
+          "price": "$45",
+          "productDesc": ""
+        }
+      ],
+      "itemFooter": ""
+    },
+    {
+      "title": "Scalp",
+      "itemDesc": "",
+      "prices": [
+        {
+          "product": "Scalp Massage",
+          "price": "$25",
+          "productDesc": "A descaling of the scalp to remove dead cells and increase blood flow"
+        }
+      ],
+      "itemFooter": ""
+    },
+    {
+      "title": "Body Hair Trim",
+      "itemDesc": "",
+      "prices": [
+        {
+          "product": "Full Body",
+          "price": "$40",
+          "productDesc": ""
+        },
+        {
+          "product": "Chest",
+          "price": "$20",
+          "productDesc": ""
+        },
+        {
+          "product": "Back",
+          "price": "$20",
+          "productDesc": ""
+        },
+        {
+          "product": "Legs",
+          "price": "$20",
+          "productDesc": ""
+        },
+        {
+          "product": "Arms",
+          "price": "$15",
+          "productDesc": ""
+        }
+      ],
+      "itemFooter": ""
+    }
+  ],
+  "footer": ""
+}

@@ -1,0 +1,60 @@
+{
+  "desc": "Tiffany’s Salon provides a private, tranquil, and therapeutic approach to your massage needs. A variety of massage techniques are offered in consultation with the client. Combining massage styles to meet the client’s individual needs is my focus. The following massage techniques are available.",
+  "items": [
+    {
+      "title": "Swedish",
+      "itemDesc": "Focused on relaxation using effleurage and petrissage techniques. This massage technique is the most common form of massage designed to relieve tension and stress in the muscles.",
+      "prices": [],
+      "itemFooter": ""
+    },
+    {
+      "title": "Deep Tissue",
+      "itemDesc": "Designed to release chronic muscle tension using slow deep strokes. The aim is to reach past the surface fibers, deep into the muscle to provide relief.",
+      "prices": [],
+      "itemFooter": ""
+    },
+    {
+      "title": "Trigger Point Therapy",
+      "itemDesc": "An approach to massage that focuses on trigger points to relieve stress and pain throughout the body. Focus on particular trigger points can be used to provide relief in muscles and joints not being worked during the massage.",
+      "prices": [],
+      "itemFooter": ""
+    },
+    {
+      "title": "Sports",
+      "itemDesc": "Not just for athletes, this style of massage focuses on rehabilitating injured or damaged muscles and joints. Designed to provide pain relief common to those with athletic or active lifestyles by combining a variety of massage techniques.",
+      "prices": [],
+      "itemFooter": ""
+    },
+    {
+      "title": "Reflexology",
+      "itemDesc": "Focused on pressure points in your hands and feet to provide relief throughout the entire body. Designed to release blockages and release energy to provide whole body healing.",
+      "prices": [],
+      "itemFooter": ""
+    },
+    {
+      "title": "Pregnancy",
+      "itemDesc": "A relaxing massage that can safely compliment prenatal care that focuses on providing relief to back, hips, knees, feet, and other aches and pains that accompany pregnancy.",
+      "prices": [],
+      "itemFooter": ""
+    },
+    {
+      "title": "Lymphatic",
+      "itemDesc": "A massage that uses long, light pressure to increase the flow of lymph and reduce toxins and improve the effectiveness of the body’s immune system.",
+      "prices": [],
+      "itemFooter": ""
+    },
+    {
+      "title": "Diabetic",
+      "itemDesc": "Designed to increase blood flow toward the heart using long, deep, gentle strokes. Massage reduces stress in the body and is helpful in reducing blood sugar levels.",
+      "prices": [],
+      "itemFooter": ""
+    },
+    {
+      "title": "Rolfing",
+      "itemDesc": "A massage using long, fast, deep strokes designed to provide deep muscle manipulation that relieves tension, improves structural integration and, reduces stress.",
+      "prices": [],
+      "itemFooter": ""
+    }
+  ],
+  "footer": "Rates are determined based on the specific client needs and the combination of massage styles. Rates start at $40 for 30 minutes, $75 for 60 minutes, and $120 for 90 minutes. Please inquire if you have specific massage needs not listed above."
+}
