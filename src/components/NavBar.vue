@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-md fixed-top justify-content-center">
+  <nav class="navbar navbar-expand-lg fixed-top justify-content-center">
     <a href="/" class="navbar-brand d-flex w-40 mr-auto" id="tiffBrand">Tiffany's Salon</a>
     <button
       class="navbar-toggler"
@@ -12,23 +12,23 @@
     <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
       <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
         <li class="nav-item tiffNavItem">
-          <b-link class="nav-link" to="/">HOME</b-link>
+          <b-link data-toggle="collapse" data-target=".navbar-collapse.show" class="nav-link" to="/">HOME</b-link>
         </li>
         <li class="nav-item dropdown tiffNavItem">
           <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">SERVICES</a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <b-link class="dropdown-item" to="cuts">CUTS</b-link>
-            <a class="dropdown-item" href="#">EXTENSIONS</a>
-            <b-link class="dropdown-item" to="massages">MASSAGES</b-link>
-            <b-link class="dropdown-item" to="other_services">FACIALS, BROWS, AND OTHER</b-link>
-            <b-link class="dropdown-item" to="packages">PACKAGES</b-link>
+            <b-link data-toggle="collapse" data-target=".navbar-collapse.show" class="dropdown-item" to="cuts">CUTS</b-link>
+            <b-link data-toggle="collapse" data-target=".navbar-collapse.show" class="dropdown-item" to="extensions">EXTENSIONS</b-link>
+            <b-link data-toggle="collapse" data-target=".navbar-collapse.show" class="dropdown-item" to="massages">MASSAGES</b-link>
+            <b-link data-toggle="collapse" data-target=".navbar-collapse.show" class="dropdown-item" to="other_services">FACIALS, BROWS, AND OTHER</b-link>
+            <b-link data-toggle="collapse" data-target=".navbar-collapse.show" class="dropdown-item" to="packages">PACKAGES</b-link>
           </div>
         </li>
         <li class="nav-item tiffNavItem">
-          <b-link class="nav-link" to="about">ABOUT</b-link>
+          <b-link data-toggle="collapse" data-target=".navbar-collapse.show" class="nav-link" to="about">ABOUT</b-link>
         </li>
         <li class="nav-item tiffNavItem">
-          <a class="nav-link" href="#">CONTACT</a>
+          <b-link data-toggle="collapse" data-target=".navbar-collapse.show" class="nav-link" to="contact">CONTACT</b-link>
         </li>
       </ul>
     </div>
@@ -43,6 +43,8 @@ export default {
 
 <style lang="scss" scoped>
 @import "../assets/tiffanyStyle.scss";
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800&display=swap');
 
 .navbar,
 .navbar-expand-lg {
@@ -53,7 +55,7 @@ export default {
 }
 
 #tiffBrand {
-  font-family: "Pacifico", cursive;
+  font-family: "Satisfy", cursive;
   font-size: 20pt;
   letter-spacing: 0.05em;
 }

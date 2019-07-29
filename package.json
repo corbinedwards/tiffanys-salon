@@ -12,6 +12,7 @@
     "core-js": "^2.6.5",
     "google-fonts-webpack-plugin": "^0.4.4",
     "jquery": "^3.4.1",
+    "octicons-vue": "^0.18.3",
     "popper.js": "^1.15.0",
     "set-value": "^3.0.1",
     "vue": "^2.6.10",

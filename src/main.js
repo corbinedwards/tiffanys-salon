@@ -7,7 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-vue/dist/bootstrap-vue.css";
 import "./assets/tiffanyStyle.scss";
-import GoogleFonts from "google-fonts-webpack-plugin";
+import  "google-fonts-webpack-plugin";
 
 Vue.config.productionTip = false;
 Vue.use(BootstrapVue);

@@ -1,49 +1,33 @@
 <template>
   <div class="home">
-    <!-- Hero carousel -->
+
+  <!-- Hero carousel -->
+
     <div class="hero">
       <b-carousel
-        class="d-none d-md-block"
         id="carousel-1"
         v-model="slide"
         :interval="4000"
         controls
         indicators
         background="#ababab"
-        img-width="1024"
-        img-height="400"
+        img-width="850"
+        img-height="315"
         style="text-shadow: 1px 1px 2px #333;"
         @sliding-start="onSlideStart"
         @sliding-end="onSlideEnd"
       >
-        <b-carousel-slide img-src="https://i.imgur.com/R20P93U.png"></b-carousel-slide>
-
-        <b-carousel-slide caption="Blank Image" img-blank img-alt="Blank image">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eros felis, tincidunt
-            a tincidunt eget, convallis vel est. Ut pellentesque ut lacus vel interdum.
-          </p>
-        </b-carousel-slide>
-        <b-carousel-slide caption="Blank Image" img-blank img-alt="Blank image">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eros felis, tincidunt
-            a tincidunt eget, convallis vel est. Ut pellentesque ut lacus vel interdum.
-          </p>
-        </b-carousel-slide>
+        <b-carousel-slide img-src="https://i.lensdump.com/i/WaLSYA.png"></b-carousel-slide>
+        <b-carousel-slide img-src="https://i.lensdump.com/i/WGab0c.png"></b-carousel-slide>
+        <b-carousel-slide img-src="https://i.lensdump.com/i/WGacF1.jpg"></b-carousel-slide>
       </b-carousel>
-      <b-img
-        class="d-md-none"
-        src="https://i.imgur.com/0u1VUU5.png"
-        fluid-grow
-        alt="Tiffany's Salon"
-      ></b-img>
     </div>
 
-    <!-- Hair Dreams Feature -->
+  <!-- Hair Dreams Feature -->
 
     <!-- Desktop Screen -->
     <div class="home-item d-none d-md-block">
-      <h2 class="home-item-title">Featuring Hair Dreams Extensions</h2>
+      <h2 class="home-item-title">Featuring Hairdreams&#174; Extensions</h2>
       <div class="hair-dreams-feature">
         <p class="mb-0 hero-item-body" style="padding-right: 1.2em;">
           The Laserbeamer NANO System is the most innovative method to create natural fullness and length in a very gentle manner.
@@ -53,18 +37,18 @@
           your Hairdreams hair can withstand any activity and always look perfect!
           <br>
           <br>
-          <b-link href="#" class="hair-dreams-link">Learn More...</b-link>
+          <b-link to="extensions" class="hair-dreams-link">Learn More...</b-link>
           <br>
           <br>
         </p>
-        <img id="tiffMedia" src="../assets/images/extensions 1.jpeg" width="250" alt="placeholder"></b-img>
-        <img slot="aside" src="../assets/images/extensions 2.jpeg" width="250" alt="placeholder"></b-img>
+        <img id="tiffMedia" src="https://i.lensdump.com/i/WaiiMc.png" width="250" alt="placeholder">
+        <img slot="aside" src="https://i.lensdump.com/i/WGawBK.jpg" width="250" alt="placeholder">
       </div>
     </div>
 
     <!-- Mobile Screen -->
     <div class="home-item d-md-none">
-      <h2 class="home-item-title">Featuring Hair Dreams Extensions</h2>
+      <h2 class="home-item-title">Featuring Hairdreams&#174; Extensions</h2>
         <div class="hair-dreams-image" id="hdImg1"></div>
         <p class="mb-0 hero-item-body" style="padding: 1em;">
           The Laserbeamer NANO System is the most innovative method to create natural fullness and length in a very gentle manner.
@@ -74,25 +58,26 @@
           your Hairdreams hair can withstand any activity and always look perfect!
           <br>
           <br>
-          <b-link href="#" class="hair-dreams-link">Learn More...</b-link>
+          <b-link to="extensions" class="hair-dreams-link">Learn More...</b-link>
           <br>
           <br>
         </p>
         <div class="hair-dreams-image" id="hdImg2"></div>
-      </b-media>
     </div>
 
-    <!-- Services Menu -->
+  <!-- Services Menu -->
     <div class="home-item home-services">
       <h2 class="home-item-title" style="color:black;">Services</h2>
       <div class="menu-row">
         <div class="menu-item">
           <div class="menu-title">EXTENSIONS</div>
           <div class="menu-body">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Extensions by Hairdreams&#174;
+            <br>NANO Technology
           </div>
-          <button class="menu-button">LEARN MORE</button>
+          <router-link to="/extensions">
+            <button class="menu-button">LEARN MORE</button>
+          </router-link>
         </div>
         <div class="menu-item">
           <div class="menu-title">CUTS & STYLING</div>
@@ -147,7 +132,7 @@
       </div>
     </div>
 
-    <!-- Meet Your Stylist-->
+  <!-- Meet Your Stylist-->
     <div class="home-item">
       <h2 class="home-item-title" style="color:black;">Meet Your Stylist</h2>
       <div class="tiffany-profile">
@@ -201,6 +186,7 @@ export default {
 <style lang="scss" scoped>
 @import "../assets/tiffanyStyle.scss";
 @import url("https://fonts.googleapis.com/css?family=Satisfy&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 .hair-dreams-image {
   width: 100%;
@@ -210,17 +196,18 @@ export default {
 }
 
 #hdImg1 {
-  background-image: url('../assets/images/extensions 1.jpeg');
-  background-position: 0px -70px;
+  background-image: url('https://i.lensdump.com/i/WaiiMc.png');
+  background-position: 0px -30px;
 }
 
 #hdImg2 {
-  background-image: url('../assets/images/extensions 2.jpeg');
-
+  background-image: url('https://i.lensdump.com/i/WGawBK.jpg');
+  background-position: 0px -80px;
 }
 
 .hero {
   width: 100%;
+  margin-top: 65px;
 }
 
 .home-item {
@@ -279,7 +266,7 @@ export default {
   box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.15);
   display: flex;
   flex-direction: column;
-  align-content: space-between;
+  justify-content: space-between;
   margin-bottom: 3em;
 }
 
@@ -287,13 +274,11 @@ export default {
   font-weight: bold;
   font-size: 1.5em;
   text-align: center;
-  margin: auto;
 }
 
 .menu-body {
   font-size: 1em;
   text-align: center;
-  margin: auto;
   line-height: 230%;
 }
 
@@ -305,8 +290,9 @@ export default {
   width: 100%;
   padding: 10px;
   font-size: 1.1em;
-  margin: auto;
+  border: none;
 }
+
 
 .tiffany-profile {
   display: flex;
@@ -329,6 +315,7 @@ export default {
 #tiffany-about-name {
   font-size: 2.5em;
   font-weight: bold;
+  color: $tiffPink;
 }
 
 @media(max-width: 768px) {

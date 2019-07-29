@@ -8,9 +8,8 @@
                 <p class="section-desc">{{ item.itemDesc }}</p>
                 <ul class="section-products" v-for="prod in item.prices">
                     <li class="product">
-                        <span style="font-weight:bold;">{{ prod.product }}</span>
-                        <span>  . . . . . . . . . .  </span>
-                        <span>{{ prod.price }}</span>
+                        <span class="product-title">{{ prod.product }}</span>
+                        <span style="float:right;">{{ prod.price }}</span>
                         <br>
                         <span style="font-size:0.8em;font-style:italic;">{{prod.productDesc}}</span>
                     </li>
@@ -31,6 +30,7 @@ export default {
 
 <style lang="scss" scoped>
 @import "../assets/tiffanyStyle.scss";
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 .menu {
     font-family: "Montserrat", sans-serif;
@@ -56,10 +56,10 @@ export default {
 }
 
 .section-title {
-    text-transform: uppercase;
-    font-weight: bold;
-    color: $tiffPink;
-    font-size: 1.5em;
+    font-family: "Satisfy", cursive, sans-serif;
+    color: black;
+    font-size: 2.2em;
+    text-align: center;
 }
 
 .section-desc {
@@ -74,6 +74,11 @@ export default {
 
 .product {
     font-size: 1.1em;
+}
+
+.product-title {
+    color: $tiffPink;
+    /* text dec underline */
 }
 
 @media(max-width: 768px) {
