@@ -7,12 +7,12 @@
       "prices": [
         {
           "product": "Women's",
-          "price": "$35",
+          "price": "$40",
           "productDesc": ""
         },
         {
           "product": "Men's",
-          "price": "$20",
+          "price": "$25",
           "productDesc": ""
         },
         {
@@ -30,6 +30,11 @@
         {
           "product": "Updo",
           "price": "starting at $25",
+          "productDesc": ""
+        },
+        {
+          "product": "Quickie Hairdreams Extensions",
+          "price": "starting at $100",
           "productDesc": ""
         },
         {

@@ -32,7 +32,7 @@
         <p class="mb-0 hero-item-body" style="padding-right: 1.2em;">
           The Laserbeamer NANO System is the most innovative method to create natural fullness and length in a very gentle manner.
           Hairdreams 100% real human hair combined with patented NANO Technology that “invisibly“ integrates into one‘s own hair.
-          You can style your hair as you normally do, but have much more styling possibilities than ever before.
+          You can style your hair as you normally do, but have many more styling possibilities than ever before.
           No matter what you are doing (Sports, Sauna, swimming, etc.)
           your Hairdreams hair can withstand any activity and always look perfect!
           <br>
@@ -53,7 +53,7 @@
         <p class="mb-0 hero-item-body" style="padding: 1em;">
           The Laserbeamer NANO System is the most innovative method to create natural fullness and length in a very gentle manner.
           Hairdreams 100% real human hair combined with patented NANO Technology that “invisibly“ integrates into one‘s own hair.
-          You can style your hair as you normally do, but have much more styling possibilities than ever before.
+          You can style your hair as you normally do, but have many more styling possibilities than ever before.
           No matter what you are doing (Sports, Sauna, swimming, etc.)
           your Hairdreams hair can withstand any activity and always look perfect!
           <br>
@@ -95,10 +95,10 @@
         <div class="menu-item">
           <div class="menu-title">MASSAGES</div>
           <div class="menu-body">
-            Private Massages
-            <br>Deep Tissue Massages
+            Swedish
+            <br>Deep Tissue
             <br>Trigger Point Therapy
-            <br>Sports Massages
+            <br>Sports
             <br>And More
           </div>
           <router-link to="/massages">
@@ -139,11 +139,11 @@
         <img id="tiffany-portrait" src="../assets/images/tiffanyPortrait.png" />
         <div id="tiffany-about">
           <h2 id="tiffany-about-name">TIFFANY LYONS</h2>
-          <h3 style="font-size: 1.7em;">tiffanymlyons@yahoo.com</h3>
+          <h3 style="font-size: 1.7em;">tiffanys.salon@yahoo.com</h3>
           <br>
           <p class="hero-item-body">
           Tiffany Lyons is a licensed cosmologist and a licensed professional massage therapist.
-          With nearly 30-years experience, as a massage therapist and almost two decades as a cosmologist,
+          With nearly 30-years experience, as a massage therapist and almost two decades as a cosmetologist,
           Tiffany has the skill to customize your salon experience.
           <br>
           <br>
@@ -318,7 +318,7 @@ export default {
   color: $tiffPink;
 }
 
-@media(max-width: 768px) {
+@media(max-width: 976px) {
   .hair-dreams-feature {
     flex-wrap: wrap;
   }

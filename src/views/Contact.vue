@@ -14,7 +14,7 @@
                 </div>
                 <hr />
                 <div class="contact-segment">501-744-0406</div>
-                <div class="contact-segment">tiffanymlyons@yahoo.com</div>
+                <div class="contact-segment">tiffanys.salon@yahoo.com</div>
                 <hr>
             </div>
         </div>
