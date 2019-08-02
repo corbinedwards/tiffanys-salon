@@ -7,6 +7,7 @@ import Massages from "./views/Massages.vue";
 import Packages from "./views/Packages.vue";
 import Other from "./views/Other.vue";
 import Contact from "./views/Contact.vue";
+import PageNotFound from "./views/PageNotFound.vue";
 
 Vue.use(Router);
 
@@ -15,36 +16,43 @@ export default new Router({
     {
       path: "/",
       name: "home",
-      component: Home
+      component: Home,
+      meta: { title: "Tiffany's Salon - Home" }
     },
     {
       path: "/extensions",
       name: "extensions",
-      component: Extensions
+      component: Extensions,
+      meta: { title: "Tiffany's Salon - Extensions" }
     },
     {
       path: "/cuts",
       name: "cuts",
-      component: Cuts
+      component: Cuts,
+      meta: { title: "Tiffany's Salon - Cuts" }
     },
     {
       path: "/massages",
       name: "massages",
-      component: Massages
+      component: Massages,
+      meta: { title: "Tiffany's Salon - Massages" }
     },
     {
       path: "/packages",
       name: "packages",
-      component: Packages
+      component: Packages,
+      meta: { title: "Tiffany's Salon - Packages" }
     },
     {
       path: "/other_services",
       name: "other",
-      component: Other
+      component: Other,
+      meta: { title: "Tiffany's Salon - Other Services" }
     },
     {
       path: "/about",
       name: "about",
+      meta: { title: "Tiffany's Salon - About" },
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
@@ -54,7 +62,13 @@ export default new Router({
     {
       path: "/contact",
       name: "contact",
-      component: Contact
+      component: Contact,
+      meta: { title: "Tiffany's Salon - Contact" }
+    },
+    {
+      path: "*",
+      name: "error404",
+      component: PageNotFound
     }
   ],
   scrollBehavior(to, from, savedPosition) {

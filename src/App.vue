@@ -21,6 +21,11 @@ export default {
   components: {
     NavBar,
     Footer
+  },
+  watch: {
+    $route(to, from) {
+        document.title = to.meta.title || "Tiffany's Salon";
+    },
   }
 };
 </script>

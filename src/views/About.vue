@@ -4,7 +4,7 @@
     <div class="about-container">
       <div class="about-text">
         <h2 class="tiffany-about-name">TIFFANY LYONS</h2>
-        <h3 style="font-size: 1.7em;">tiffanys.salon@yahoo.com</h3>
+        <a id="tiffany-email" href="mailto: tiffanys.salon@yahoo.com">tiffanys.salon@yahoo.com</a>
         <h3 style="font-size: 1.7em;">501-744-0406</h3>
         <p class="bio">
           <br>
@@ -72,6 +72,15 @@ export default {
 .about-media {
   display: flex;
   flex-direction: column;
+}
+
+#tiffany-email {
+  font-size: 1.7em;
+  text-decoration: underline;
+}
+
+#tiffany-email:hover {
+  color: black;
 }
 
 // .about-img {

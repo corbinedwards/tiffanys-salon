@@ -6,7 +6,7 @@
                 <iframe id="map" width="500" height="500" frameborder="0" style="border:0; float:right;" src="https://www.google.com/maps/embed/v1/place?q=place_id:EjFGaW5hbmNpYWwgQ2VudHJlIFBrd3ksIExpdHRsZSBSb2NrLCBBUiA3MjIxMSwgVVNBIi4qLAoUChIJH0DQV7Sm0ocRjnS4a1D6Vx0SFAoSCZtWH6E0odKHERdb8w0Q9QU0&key=AIzaSyC9wm-VVyDvT7BreM841jhSowabQ95iYvY" allowfullscreen></iframe>
             </div>
             <div class="contact-block contact-info">
-                <img id="logo" src="../assets/images/logo render.png" style="margin-bottom: 30px;">
+                <img id="logo" src="../assets/images/logo render v2.png" style="margin-bottom: 30px;">
                 <hr>
                 <div class="contact-segment">
                     Financial Centre Pkwy
@@ -14,7 +14,7 @@
                 </div>
                 <hr />
                 <div class="contact-segment">501-744-0406</div>
-                <div class="contact-segment">tiffanys.salon@yahoo.com</div>
+                <a id="tiffany-email" class="contact-segment" href="mailto: tiffanys.salon@yahoo.com">tiffanys.salon@yahoo.com</a>
                 <hr>
             </div>
         </div>
@@ -60,7 +60,15 @@ hr {
 #logo {
         width: 100%;
         height: auto;
-    }
+}
+
+#tiffany-email {
+  text-decoration: underline;
+}
+
+#tiffany-email:hover {
+    color:black;
+}
 
 @media (max-width: 500px) {
     .contact-container {

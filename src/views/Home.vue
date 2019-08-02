@@ -7,17 +7,16 @@
       <b-carousel
         id="carousel-1"
         v-model="slide"
-        :interval="4000"
+        :interval="7000"
         controls
         indicators
         background="#ababab"
         img-width="850"
         img-height="315"
-        style="text-shadow: 1px 1px 2px #333;"
         @sliding-start="onSlideStart"
         @sliding-end="onSlideEnd"
       >
-        <b-carousel-slide img-src="https://i.lensdump.com/i/WaLSYA.png"></b-carousel-slide>
+        <b-carousel-slide img-src="https://i.lensdump.com/i/iA6dkQ.png"></b-carousel-slide>
         <b-carousel-slide img-src="https://i.lensdump.com/i/WGab0c.png"></b-carousel-slide>
         <b-carousel-slide img-src="https://i.lensdump.com/i/WGacF1.jpg"></b-carousel-slide>
       </b-carousel>
@@ -26,10 +25,10 @@
   <!-- Hair Dreams Feature -->
 
     <!-- Desktop Screen -->
-    <div class="home-item d-none d-md-block">
+    <div class="home-item d-md-block">
       <h2 class="home-item-title">Featuring Hairdreams&#174; Extensions</h2>
       <div class="hair-dreams-feature">
-        <p class="mb-0 hero-item-body" style="padding-right: 1.2em;">
+        <p class="mb-0 hero-item-body">
           The Laserbeamer NANO System is the most innovative method to create natural fullness and length in a very gentle manner.
           Hairdreams 100% real human hair combined with patented NANO Technology that “invisibly“ integrates into one‘s own hair.
           You can style your hair as you normally do, but have many more styling possibilities than ever before.
@@ -41,15 +40,15 @@
           <br>
           <br>
         </p>
-        <img id="tiffMedia" src="https://i.lensdump.com/i/WaiiMc.png" width="250" alt="placeholder">
-        <img slot="aside" src="https://i.lensdump.com/i/WGawBK.jpg" width="250" alt="placeholder">
+        <img src="https://i.lensdump.com/i/WaiiMc.png" width="250" height="332" alt="Hair Dreams Model">
+        <img src="https://i.lensdump.com/i/WGawBK.jpg" width="250" height="332" alt="Hair Dreams Model">
       </div>
     </div>
 
     <!-- Mobile Screen -->
-    <div class="home-item d-md-none">
+    <!-- <div class="home-item d-md-none">
       <h2 class="home-item-title">Featuring Hairdreams&#174; Extensions</h2>
-        <div class="hair-dreams-image" id="hdImg1"></div>
+      <div class="hair-dreams-feature">
         <p class="mb-0 hero-item-body" style="padding: 1em;">
           The Laserbeamer NANO System is the most innovative method to create natural fullness and length in a very gentle manner.
           Hairdreams 100% real human hair combined with patented NANO Technology that “invisibly“ integrates into one‘s own hair.
@@ -63,7 +62,8 @@
           <br>
         </p>
         <div class="hair-dreams-image" id="hdImg2"></div>
-    </div>
+      </div>
+    </div> -->
 
   <!-- Services Menu -->
     <div class="home-item home-services">
@@ -136,12 +136,15 @@
     <div class="home-item">
       <h2 class="home-item-title" style="color:black;">Meet Your Stylist</h2>
       <div class="tiffany-profile">
-        <img id="tiffany-portrait" src="../assets/images/tiffanyPortrait.png" />
+        <div class="portrait-wrapper">
+          <b-img id="tiffany-portrait" fluid src="https://i.lensdump.com/i/i8t3f5.jpg"></b-img>
+        </div>
         <div id="tiffany-about">
-          <h2 id="tiffany-about-name">TIFFANY LYONS</h2>
-          <h3 style="font-size: 1.7em;">tiffanys.salon@yahoo.com</h3>
+          <div class="hero-item-body">
+             <h2 class="tiffany-about-name">TIFFANY LYONS</h2>
+              <a id="tiffany-email" href="mailto: tiffanys.salon@yahoo.com">tiffanys.salon@yahoo.com</a>
           <br>
-          <p class="hero-item-body">
+          <br>
           Tiffany Lyons is a licensed cosmologist and a licensed professional massage therapist.
           With nearly 30-years experience, as a massage therapist and almost two decades as a cosmetologist,
           Tiffany has the skill to customize your salon experience.
@@ -150,7 +153,7 @@
           <b-link to="about" class="hair-dreams-link">Learn More...</b-link>
           <br>
           <br>
-          </p>
+          </div>
         </div>
       </div>
     </div>
@@ -195,16 +198,6 @@ export default {
   background-size: cover;
 }
 
-#hdImg1 {
-  background-image: url('https://i.lensdump.com/i/WaiiMc.png');
-  background-position: 0px -30px;
-}
-
-#hdImg2 {
-  background-image: url('https://i.lensdump.com/i/WGawBK.jpg');
-  background-position: 0px -80px;
-}
-
 .hero {
   width: 100%;
   margin-top: 65px;
@@ -226,8 +219,9 @@ export default {
 
 .hero-item-body {
   font-family: "Montserrat", sans-serif;
-  font-size: 1em;
+  font-size: 1.1em;
   line-height: 188%;
+  padding-right: 1.2em;
 }
 
 .hair-dreams-feature {
@@ -301,6 +295,11 @@ export default {
   width: 100%;
 }
 
+.portrait-wrapper {
+  width: 300px;
+  height: auto;
+}
+
 #tiffany-portrait {
   border: 15px solid white;
   box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.15);
@@ -312,15 +311,25 @@ export default {
   padding: 1em;
 }
 
-#tiffany-about-name {
+.tiffany-about-name {
   font-size: 2.5em;
   font-weight: bold;
   color: $tiffPink;
 }
 
-@media(max-width: 976px) {
+#tiffany-email {
+  font-size: 1.3em;
+  text-decoration: underline;
+}
+
+#tiffany-email:hover {
+  color: black;
+}
+
+@media(max-width: 1024px) {
   .hair-dreams-feature {
     flex-wrap: wrap;
+    justify-content: space-evenly;
   }
 
   .home-services {
@@ -335,26 +344,37 @@ export default {
     flex-wrap: wrap;
   }
 
-  #tiffany-about {
-    width: auto
-  }
 }
 
 @media (max-width: 500px) {
   .home-item {
-    padding: 2em 0 0 0;
+    padding: 2em 0em;
   }
 
   .home-item-title {
     font-size: 3em;
   }
 
-  .tiffany-profile {
+  .hero-item-body {
+    padding: 1em;
+  }
+
+  .hair-dreams-feature {
     flex-wrap: wrap;
+  }
+
+  .tiffany-profile {
+    flex-direction: column-reverse;
+    justify-content: center;
   }
 
   #tiffany-about {
     width: auto;
+    padding: 1em 0;
+  }
+
+  .portrait-wrapper {
+    margin:auto;
   }
 
   #tiffany-portrait {
