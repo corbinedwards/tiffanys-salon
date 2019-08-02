@@ -23,7 +23,7 @@
                         <div class="hd-video">
                             <b-embed
                                 type="iframe"
-                                src="https://player.vimeo.com/video/128568719"
+                                src="https://www.youtube.com/embed/1Inv2CVlQBw"
                                 allowfullscreen
                             >
                             </b-embed>
