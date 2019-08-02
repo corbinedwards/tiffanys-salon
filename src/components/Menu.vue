@@ -8,8 +8,10 @@
                 <p class="section-desc">{{ item.itemDesc }}</p>
                 <ul class="section-products" v-for="prod in item.prices">
                     <li class="product">
-                        <span class="product-title">{{ prod.product }}</span>
-                        <span style="float:right;">{{ prod.price }}</span>
+                        <div class="product-data">
+                            <span class="product-title">{{ prod.product }}</span>
+                            <span class="product-price">{{ prod.price }}</span>
+                        </div>
                         <br>
                         <span style="font-size:0.8em;font-style:italic;">{{prod.productDesc}}</span>
                     </li>
@@ -76,9 +78,18 @@ export default {
     font-size: 1.1em;
 }
 
+.product-data {
+    display: flex;
+    justify-content: space-between;
+}
+
 .product-title {
     color: $tiffPink;
-    /* text dec underline */
+    width: 50%;
+}
+
+.product-price {
+    text-align: right;
 }
 
 @media(max-width: 768px) {
